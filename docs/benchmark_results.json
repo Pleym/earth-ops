@@ -1,0 +1,57 @@
+[
+  {
+    "method": "numpy",
+    "chunk": null,
+    "seconds": 2.369,
+    "peak_rss_mb": 1484.0,
+    "baseline_rss_mb": 174.3,
+    "mpx_per_s": 12.72,
+    "max_abs_diff": 0.0,
+    "mask_mismatch": 0,
+    "pixels": 30140100
+  },
+  {
+    "method": "dask",
+    "chunk": 256,
+    "seconds": 2.243,
+    "peak_rss_mb": 382.3,
+    "baseline_rss_mb": 174.3,
+    "mpx_per_s": 13.43,
+    "max_abs_diff": 0.0,
+    "mask_mismatch": 0,
+    "pixels": 30140100
+  },
+  {
+    "method": "dask",
+    "chunk": 512,
+    "seconds": 1.705,
+    "peak_rss_mb": 409.0,
+    "baseline_rss_mb": 174.3,
+    "mpx_per_s": 17.68,
+    "max_abs_diff": 0.0,
+    "mask_mismatch": 0,
+    "pixels": 30140100
+  },
+  {
+    "method": "dask",
+    "chunk": 1024,
+    "seconds": 1.583,
+    "peak_rss_mb": 546.4,
+    "baseline_rss_mb": 174.3,
+    "mpx_per_s": 19.04,
+    "max_abs_diff": 0.0,
+    "mask_mismatch": 0,
+    "pixels": 30140100
+  },
+  {
+    "method": "dask",
+    "chunk": 2048,
+    "seconds": 1.543,
+    "peak_rss_mb": 1099.7,
+    "baseline_rss_mb": 174.3,
+    "mpx_per_s": 19.53,
+    "max_abs_diff": 0.0,
+    "mask_mismatch": 0,
+    "pixels": 30140100
+  }
+]

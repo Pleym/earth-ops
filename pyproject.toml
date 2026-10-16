@@ -1,0 +1,15 @@
+[project]
+name = "earth-ops"
+version = "0.1.0"
+description = "Mini ground segment for Sentinel-2 L2A: ingestion, validation, NDVI (Xarray/Dask), quality control, monitoring"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore:Use `@` matmul:PendingDeprecationWarning"]  # rioxarray internals
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
